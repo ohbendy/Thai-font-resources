@@ -5,5 +5,5 @@ A 1976 orthography uses mai ek instead of the apostrophe modifier.
 
 ### 0331 Combining macron below ###
 
-Used in various orthographies to mark Thai characters with sound values that don't occur in Central Thai. As base characters have different widths, the visual appearance can be improved by including two or three widths of the macron below and using OpenType substitutions to select the appropriate glyph, e.g ◌า̱ ฆ̱ ญ̱. Ensure the macron below triggers the contextual short forms of descending consonants.
+Used in various orthographies to mark Thai characters with sound values that don't occur in Central Thai. As base characters have different widths, the visual appearance can be improved by including two or three widths of the macron below and using OpenType substitutions to select the appropriate glyph, e.g ◌า̱ ฆ̱ ญ̱. Ensure the macron below triggers the contextual short forms of descending consonants. Harfbuzz currently reorders the macronbelow after any belowvowels based on combining class order, so fonts need to reorder sequences correctly (base then macronbelow then belowvowels).
 
