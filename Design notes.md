@@ -4,6 +4,10 @@ Used in the modern Thai orthography for [Lawa / Lawua](https://th.wikipedia.org/
 
 A 1976 orthography uses mai ek instead of the apostrophe modifier.
 
+### 0303 Combining tilde ◌̃ ###
+
+Used as a modifier to indicate vowel nasalisation in [Pattani Malay language](https://unicode.org/L2/L2010/10451-patani-proposal.pdf). No specific shaping requirements, but it looks neatest if the tilde is sits centred above each letter, so may require its own anchor.
+
 ### 0331 Combining macron below ◌̱ ###
 
 Used in various orthographies to mark Thai characters (consonants and vowels) with sound values that don't occur in Central Thai. As base characters have different widths, the visual appearance can be improved by including two or three widths of the macron below and using OpenType substitutions to select the appropriate glyph, e.g ◌า̱ ฆ̱ ญ̱. Ensure the macron below triggers the contextual short forms of descending consonants, and ensure spacing vowels have appropriate anchors.
