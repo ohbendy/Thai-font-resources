@@ -16,6 +16,6 @@ Harfbuzz currently reorders the macronbelow after any belowvowels based on combi
 
 ### 0E3A Thai character phinthu ◌ฺ ###
 
-Phinthu acts as a virama in Pali and Sanskrit to mark devowellised consonants. Like macronbelow, it is also used in various orthographies to mark Thai characters (consonants and vowels) with sound values that don't occur in Central Thai, e.g รฺ เฺ◌ ◌ฺิ. Ensure the phinthu triggers the contextual short forms of descending consonants, and ensure spacing vowels have appropriate anchors.
+Phinthu acts as a virama in Pali and Sanskrit to mark devowellised consonants. Like macronbelow, it is also used in various orthographies to mark Thai characters (consonants and vowels) with sound values that don't occur in Central Thai, e.g กฺ รฺ ◌ฺิ. Ensure the phinthu triggers the contextual short forms of descending consonants. Phinthu anchors in the same position as sara U and sara Uu, on the bottom right of consonants. Ensure spacing vowels have appropriate anchors to cater for sequences like าฺ and เฺ.
 
 Harfbuzz currently reorders the phinthu after any belowvowels, so fonts need to reorder sequences correctly (base then phinthu then belowvowels).
