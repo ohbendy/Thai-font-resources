@@ -11,5 +11,6 @@ A mildly curated\* list of designers and foundries focusing on Thai script.
  - [Smarn Font](https://smarnfont.net/)
  - [Stawix foundry](https://stawix.com/font/)
  - [Superstore](http://www.superstorefont.com/)
+ - [Typomancer](https://typomancer.com/)
 
 \* As Thai fonts made by non-native designers tend to have unfamiliar proportions, the focus here is on studios in Thailand.
