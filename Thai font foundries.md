@@ -7,6 +7,7 @@ A mildly curated\* list of designers and foundries focusing on Thai script.
  - [FontUni](https://fontuni.com/)
  - [Google's Thai fonts](https://fonts.google.com/?subset=thai&noto.script=Thai)
  - [Jipatype](https://www.jipatype.com/home)
+ - [Katatrad](https://www.katatrad.com/thai-font/)
  - [Produce](www.producebkk.com)
  - [PSL](http://www.fontpsl.com/webpage/myfont/index.php) or [FontPSL](http://www.psl.mundesigns.com/)
  - [Smarn Font](https://smarnfont.net/)
