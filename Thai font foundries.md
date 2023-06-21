@@ -14,4 +14,4 @@ A mildly curated\* list of designers and foundries focusing on Thai script.
  - [Superstore](http://www.superstorefont.com/)
  - [Typomancer](https://typomancer.com/)
 
-\* As Thai fonts made by non-native designers tend to have unfamiliar proportions, the focus here is on studios in Thailand.
+\* The focus here is on studios in Thailand and designers with immersive experience of the Thai script.
