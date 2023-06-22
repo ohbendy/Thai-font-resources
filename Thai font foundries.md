@@ -17,8 +17,9 @@ A mildly curated\* list of designers and foundries focusing on Thai script.
  - [Smarn Font](https://smarnfont.net/)
  - [Stawix foundry](https://stawix.com/font/)
  - [Superstore](http://www.superstorefont.com/)
+ - [Thai Linux Working Group](https://linux.thai.net/projects/fonts-tlwg)
  - [TypeK](https://www.facebook.com/TypekFoundry/)
  - [Typomancer](https://typomancer.com/)
  - [Ziam Type](https://www.facebook.com/Ziamtype)
 
-\* The focus here is on studios in Thailand and designers with immersive experience of the Thai script.
+\* The focus here is on studios in Thailand and designers with immersive experiences of the Thai script.
