@@ -2,17 +2,23 @@ A mildly curated\* list of designers and foundries focusing on Thai script.
 
  - [Cadson Demak](https://fonts.cadsondemak.com/)
  - [DB Fonts](https://www.dbfont.biz/fontsample.php)
- - [Deltatype](https://deltaty.pe/fonts/) 
+ - [Deltatype](https://deltaty.pe/fonts/)
+ - [Dhammadha Fonts](https://www.dhammadha.com/fonts)
  - [Fontcraft Studio](https://www.fontcraftstudio.com/)
  - [FontUni](https://fontuni.com/)
  - [Google's Thai fonts](https://fonts.google.com/?subset=thai&noto.script=Thai)
  - [Jipatype](https://www.jipatype.com/home)
  - [Katatrad](https://www.katatrad.com/thai-font/)
+ - [Pocket Fonts](https://pocketfonts.com/)
+ - [Potch Auacherdkul](https://potch.xyz/)
  - [Produce](www.producebkk.com)
+ - [Promphan Suksumek](https://boom-promphans.com/)
  - [PSL](http://www.fontpsl.com/webpage/myfont/index.php) or [FontPSL](http://www.psl.mundesigns.com/)
  - [Smarn Font](https://smarnfont.net/)
  - [Stawix foundry](https://stawix.com/font/)
  - [Superstore](http://www.superstorefont.com/)
+ - [TypeK](https://www.facebook.com/TypekFoundry/)
  - [Typomancer](https://typomancer.com/)
+ - [Ziam Type](https://www.facebook.com/Ziamtype)
 
 \* The focus here is on studios in Thailand and designers with immersive experience of the Thai script.
