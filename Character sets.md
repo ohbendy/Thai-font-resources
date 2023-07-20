@@ -70,6 +70,14 @@ The nucleus of a syllable in Thai script is a base consonant. To it, we attach v
 
 ### Thai ###
 
+#### Base consonants ####
+
+Almost any of the above consonants can serve as the initial of a syllable. The two letters khoKhuat ข 0E02 and khoKhon ฅ 0E05 are now obsolete in Thai orthography, though they should be included in digital fonts for users who need to represent older orthographies or minority languages. Consonant soRusi ษ 0E29 has not been found in a syllable-initial position in any words.
+
+In the absence of independent vowel letters in Thai script, the consonant oAng อ 0E2D can serve as a zero consonant and carry a dependent vowel sign if a syllable needs to start with a vowel sound. 
+
+The two letters Rue ฤ 0E24 and Lue ฦ 0E26 are rather infrequent, and cannot carry any vowel sign or tonemark in Thai language. 
+
 #### Vowel sequences ####
 
 Thai vowel notation is reasonably complex because of a large number of vowel phonemes, combined with a distinction between long and short vowels, and between open syllables (those which end in a vowel) and closed syllables (those which end in a consonant).
