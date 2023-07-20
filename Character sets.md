@@ -118,3 +118,4 @@ Some sequences represent the same phonemes as others nowadays, but in the past s
 |    ◌วย    |         เ◌ือย        |  ◌ำ  |
 |    uɑj    |      ɨɑj, ɯɑj       |  ɑm  |
 
+All of these vowel sequences can carry one of the four tonemarks maiEk 0E48, maiTho 0E49, maiTri 0E4A or maiChattawa 0E4B, with the tonemark always appearing above the base consonant (if the vowel sequence includes a mark above the base consonant, the tonemark sits above it).
