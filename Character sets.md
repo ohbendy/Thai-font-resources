@@ -52,6 +52,8 @@ Five standalone punctuation signs:
 
 ### Extras ###
 
+These characters are not used by Standard Thai.
+
 In Pali and Sanskrit languages, nikahit (0E4D) is the anusvara, phinthu (0E3A) marks a devowellised consonant and yamakkan (0E4E) marks a consonant cluster. Phinthu is also used in various minority languages to indicate consonants whose sounds don't occur in Thai. We can also include here some Latin diacritics which are used in minority languages and for transcription systems.
 
 | 0E4D | 0E3A | 0E4E | 02BC | 0303 | 0331 | 035E |
@@ -72,7 +74,7 @@ The nucleus of a syllable in Thai script is a base consonant. To it, we attach v
 
 Thai vowel notation is reasonably complex because of the distinction between long and short vowels, open syllables (those which end in a vowel) and closed syllables (those which end in a consonant), and a large number of vowel phonemes. 
 
-Many vowels have several components surrounding the base consonant, three of which (ยวอ) are actually consonant letters. Here we list all the possible vowel sequences using the dotted circle to represent any consonant. Note how some sequences have two dotted circles, one for the base consonant and one for the final (coda) consonant. This way we see, for example that maiHanakat 0E31 can only occur between two consonants, while saraEuu is written differently in open and closed syllables. Hopefully the font your browser has chosen will reproduce the dotted circles correctly.
+Many vowels have several components surrounding the base consonant, three of which (ยวอ) are actually consonant letters. Here we list all the possible vowel sequences using the dotted circle to represent any consonant. Note how some sequences have two dotted circles, one for the base consonant and one for the final (coda) consonant. This way we see, for example, that maiHanakat 0E31 can only occur between two consonants, while saraEuu is written differently in open and closed syllables. Hopefully the font your browser has chosen will reproduce the dotted circles correctly.
 
 Some sequences represent the same phonemes as others nowadays, but in the past stood for different sounds. Spelling preserves the etymology, notably for words of Sanskrit origin.
 
