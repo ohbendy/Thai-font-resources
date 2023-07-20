@@ -1,3 +1,5 @@
+# Characters of Thai script #
+
 Here follows a full list of the characters required for Thai language, finishing with the extras needed for minority language support. A font that includes all these characters with correct shaping will support all the languages listed in [Languages]([url](https://github.com/ohbendy/Thai-font-resources/blob/main/Languages.md)).
   
 ### Consonants ###
@@ -13,10 +15,6 @@ Here follows a full list of the characters required for Thai language, finishing
 | 0E20 | 0E21 | 0E22 | 0E23 | 0E24 | 0E25 | 0E26 | 0E27 | 0E28 | 0E29 | 0E2A | 0E2B | 0E2C | 0E2D | 0E2E |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |  ภ   |  ม   |  ย   |  ร   |  ฤ   |  ล   |  ฦ   |  ว   |  ศ   |  ษ   |  ส   |  ห   |  ฬ   |  อ   |  ฮ   |
-
-The standard letter count is 44 as 0E24 and 0E25 don't usually show up in alphabet charts. They are not quite consonants and not quite vowels. They represent the vocalic R and L of Sanskrit, and in Thai language they operate like a consonant in syllable-initial position, or like a vowel following an initial consonant. The long forms are 0E24 0E45 ฤๅ and 0E25 0E45 ฦๅ, which should always display as connected ligatures (use `RCLT` feature to prevent tracking from breaking the ligatures in Adobe apps). 0E24 is used as a consonant in its own right in Lisu language: this is the only known situation where diacritics need to attach to it.
-
-Note 0E0D and 0E10 lose their below-base elements so that belowmarks can attach directly to the body of the glyphs.
   
 ### Vowels ###
 
@@ -52,7 +50,7 @@ Five standalone punctuation signs:
 
 ### Extras ###
 
-These characters are not used by Standard Thai.
+These characters are not used by Standard Thai language, but should be included in digital fonts that aim to support minority languages that use Thai script.
 
 In Pali and Sanskrit languages, nikahit (0E4D) is the anusvara, phinthu (0E3A) marks a devowellised consonant and yamakkan (0E4E) marks a consonant cluster. Phinthu is also used in various minority languages to indicate consonants whose sounds don't occur in Thai. We can also include here some Latin diacritics which are used in minority languages and for transcription systems.
 
@@ -66,7 +64,7 @@ In Pali and Sanskrit languages, nikahit (0E4D) is the anusvara, phinthu (0E3A) m
 
 ## Valid sequences ##
 
-The nucleus of a syllable in Thai script is a base consonant. To it, we attach vowels (remembering that some vowels are typed and stored before the base consonant, and many vowels have several components), tonemarks (which are stored after the base consonant and any pre-base, above-base and below-base vowels) and optionally a final (coda) consonant. Note that this means any post-base vowels like saraA 0E30, saraAa 0E32, saraAm 0E33 are stored after any tonemark.
+The nucleus of a syllable in Thai script is a base consonant. To it, we attach vowels (remembering that some vowels are typed and stored before the base consonant, and many vowels have several components), tonemarks (which are stored after the base consonant and any pre-base, above-base and below-base vowels) and optionally a final (coda) consonant. Note that post-base vowels like saraA 0E30, saraAa 0E32, saraAm 0E33 are stored after any tonemark.
 
 ### Thai ###
 
@@ -74,9 +72,11 @@ The nucleus of a syllable in Thai script is a base consonant. To it, we attach v
 
 Almost any of the above consonants can serve as the initial of a syllable. The two letters khoKhuat ข 0E02 and khoKhon ฅ 0E05 are now obsolete in Thai orthography, though they should be included in digital fonts for users who need to represent older orthographies or minority languages. Consonant soRusi ษ 0E29 has not been found in a syllable-initial position in any words.
 
-In the absence of independent vowel letters in Thai script, the consonant oAng อ 0E2D can serve as a zero consonant and carry a dependent vowel sign if a syllable needs to start with a vowel sound. 
+Consonants yoYing ญ 0E0D and thoThan ฐ 0E10 lose their below-base elements when below-base vowel marks are added.
 
-The two letters Rue ฤ 0E24 and Lue ฦ 0E26 are rather infrequent, and cannot carry any vowel sign or tonemark in Thai language. 
+In the absence of independent vowel letters in Thai script, the consonant oAng อ 0E2D can serve as a zero consonant and carry a dependent vowel sign when a syllable needs to start with a vowel sound. 
+
+The two letters Rue ฤ 0E24 and Lue ฦ 0E26, representing the vocalic R and L of Sanskrit, are rather infrequent, and cannot carry any vowel sign or tonemark in Thai language. These two letters don't usually show up in alphabet charts, so the standard letter count is 44. They can also operate as vowels following an initial consonant. The long forms are 0E24 0E45 ฤๅ and 0E25 0E45 ฦๅ, which should always display as connected ligatures (use `RCLT` feature to prevent tracking from breaking the ligatures in Adobe apps). (0E24 is used as a consonant in its own right in Lisu language: this is the only known situation where diacritics need to attach to it.)
 
 #### Vowel sequences ####
 
