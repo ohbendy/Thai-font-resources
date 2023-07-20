@@ -72,9 +72,9 @@ The nucleus of a syllable in Thai script is a base consonant. To it, we attach v
 
 #### Vowel sequences ####
 
-Thai vowel notation is reasonably complex because of a large number of vowel phonemes combined with a distinction between long and short vowels, and between open syllables (those which end in a vowel) and closed syllables (those which end in a consonant).
+Thai vowel notation is reasonably complex because of a large number of vowel phonemes, combined with a distinction between long and short vowels, and between open syllables (those which end in a vowel) and closed syllables (those which end in a consonant).
 
-Many vowels have several components surrounding the base consonant, three of which (ยวอ) are actually consonant letters. Here we list all the possible vowel sequences using the dotted circle to represent any consonant. Note how some sequences have two dotted circles, one for the base consonant and one for the final (coda) consonant. This way we see, for example, that maiHanakat 0E31 can only occur between two consonants in a closed syllable, while saraEuu is written differently in open and closed syllables. Hopefully the font your browser has chosen will reproduce the dotted circles correctly.
+Many vowels have several components surrounding the base consonant, three of which (ยวอ) are actually consonant letters. Here we list all the possible vowel sequences using the dotted circle to represent any consonant. Note how some sequences have two dotted circles, one for the base consonant and one for the final (coda) consonant. This way we see, for example, that saraA can only appear in an open syllable without a final consonant, maiHanakat 0E31 can only occur between two consonants in a closed syllable, while saraEuu is written differently in open and closed syllables. Hopefully the font your browser has chosen will reproduce the dotted circles correctly.
 
 Some sequences represent the same phonemes as others nowadays, but in the past stood for different sounds. Spelling preserves the etymology, notably for words of Sanskrit origin.
 
