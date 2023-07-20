@@ -66,7 +66,7 @@ In Pali and Sanskrit languages, nikahit (0E4D) is the anusvara, phinthu (0E3A) m
 
 ## Valid sequences ##
 
-The nucleus of a syllable in Thai script is a base consonant. To it, we attach vowels (remembering that some vowels are typed and stored before the base consonant, and many vowels have several components), tonemarks (which are stored after the base consonant and any pre-base, above-base and below-base vowels) and optionally a final (coda) consonant. Note that this means any post-base vowels like saraA 0E30, saraAa 0E32, saraAm0E33 are stored after any tonemark.
+The nucleus of a syllable in Thai script is a base consonant. To it, we attach vowels (remembering that some vowels are typed and stored before the base consonant, and many vowels have several components), tonemarks (which are stored after the base consonant and any pre-base, above-base and below-base vowels) and optionally a final (coda) consonant. Note that this means any post-base vowels like saraA 0E30, saraAa 0E32, saraAm 0E33 are stored after any tonemark.
 
 ### Thai ###
 
