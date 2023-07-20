@@ -1,6 +1,6 @@
 # Characters of Thai script #
 
-Here follows a full list of the characters required for Thai language, finishing with the extras needed for minority language support. A font that includes all these characters with correct shaping will support all the languages listed in [Languages]([url](https://github.com/ohbendy/Thai-font-resources/blob/main/Languages.md)).
+Here follows a full list of the characters required for Thai language, finishing with the extras needed for minority language support. A font that includes all these characters with correct shaping will support all the languages listed in [Languages](https://github.com/ohbendy/Thai-font-resources/blob/main/Languages.md).
   
 ### Consonants ###
 
