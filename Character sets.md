@@ -2,7 +2,7 @@
 
 Here follows a full list of the characters required for Thai language, finishing with the extras needed for minority language support. A font that includes all these characters with correct shaping will support all the languages listed in [Languages](https://github.com/ohbendy/Thai-font-resources/blob/main/Languages.md).
   
-### Consonants ###
+## Consonants ##
 
 | 0E01 | 0E02 | 0E03 | 0E04 | 0E05 | 0E06 | 0E07 | 0E08 | 0E09 | 0E0A | 0E0B | 0E0C | 0E0D | 0E0E | 0E0F |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
@@ -16,15 +16,15 @@ Here follows a full list of the characters required for Thai language, finishing
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |  ภ   |  ม   |  ย   |  ร   |  ฤ   |  ล   |  ฦ   |  ว   |  ศ   |  ษ   |  ส   |  ห   |  ฬ   |  อ   |  ฮ   |
   
-### Vowels ###
+## Vowels ##
 
 Thai vowels consist of one or more glyphs. Unlike Burmese, Khmer or other Indic scripts (but like Lao), pre-base vowels (0E40–0E44) are stored in visual order — they are typed before the base consonant.
 
-| 0E30 | 0E32 | 0E33 | 0E40 | 0E41 | 0E42 | 0E43 | 0E44 | 0E31 | 0E34 | 0E35 | 0E36 | 0E47 | 0E38 | 0E39 | 0E47 |
+| 0E30 | 0E32 | 0E33 | 0E40 | 0E41 | 0E42 | 0E43 | 0E44 | 0E31 | 0E34 | 0E35 | 0E36 | 0E37 | 0E38 | 0E39 | 0E47 |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |  ◌ะ  |  ◌า  |  ◌ำ  |  เ◌  |  แ◌  |  โ◌  |  ใ◌  |  ไ◌  |  ◌ั   |  ◌ิ   |  ◌ี   |  ◌ึ   |  ◌ื   |  ◌ุ   |  ◌ู   |  ◌็   |  
 
-### Tonemarks ###
+## Tonemarks ##
 
 Thai script has four tonemarks (0E48–0E4B) and the killer sign (0E4C) which indicates a silent letter. For simplicity these are listed together as they behave in the same way orthographically. These diacritics sit above a consonant, and if the consonant already has an abovevowel, they move upstairs to the top tier.
 
@@ -32,7 +32,7 @@ Thai script has four tonemarks (0E48–0E4B) and the killer sign (0E4C) which in
 |:----:|:----:|:----:|:----:|:----:|
 |  ◌่   |  ◌้   |  ◌๊   |  ◌๋   |  ◌์   |
 
-### Numerals ###
+## Numerals ##
 
 Ten decimal digits.
 
@@ -40,7 +40,7 @@ Ten decimal digits.
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |  ๐   |  ๑   |  ๒   |  ๓   |  ๔   |  ๕   |  ๖   |  ๗   |  ๘   |  ๙   |
 
-### Punctuation ###
+## Punctuation ##
 
 Five standalone punctuation signs:
 
@@ -48,7 +48,7 @@ Five standalone punctuation signs:
 |:----:|:----:|:----:|:----:|:----:|
 |  ฯ   |  ๚   |  ๏   |  ๆ   |  ๛  |
 
-### Extras ###
+## Extras ##
 
 These characters are not used by Standard Thai language, but should be included in digital fonts that aim to support minority languages that use Thai script.
 
@@ -62,13 +62,13 @@ In Pali and Sanskrit languages, nikahit (0E4D) is the anusvara, phinthu (0E3A) m
 
 ---
 
-## Valid sequences ##
+# Valid sequences #
 
 The nucleus of a syllable in Thai script is a base consonant. To it, we attach vowels (remembering that some vowels are typed and stored before the base consonant, and many vowels have several components), tonemarks (which are stored after the base consonant and any pre-base, above-base and below-base vowels) and optionally a final (coda) consonant. Note that post-base vowels like saraA 0E30, saraAa 0E32, saraAm 0E33 are stored after any tonemark.
 
-### Thai ###
+## Thai ##
 
-#### Base consonants ####
+### Base consonants ###
 
 Almost any of the above consonants can serve as the initial of a syllable. The two letters khoKhuat ข 0E02 and khoKhon ฅ 0E05 are now obsolete in Thai orthography, though they should be included in digital fonts for users who need to represent older orthographies or minority languages. Consonant soRusi ษ 0E29 has not been found in a syllable-initial position in any words.
 
@@ -78,7 +78,7 @@ In the absence of independent vowel letters in Thai script, the consonant oAng �
 
 The two letters Rue ฤ 0E24 and Lue ฦ 0E26, representing the vocalic R and L of Sanskrit, are rather infrequent, and cannot carry any vowel sign or tonemark in Thai language. These two letters don't usually show up in alphabet charts, so the standard letter count is 44. They can also operate as vowels following an initial consonant. The long forms are 0E24 0E45 ฤๅ and 0E25 0E45 ฦๅ, which should always display as connected ligatures (use `RCLT` feature to prevent tracking from breaking the ligatures in Adobe apps). (0E24 is used as a consonant in its own right in Lisu language: this is the only known situation where diacritics need to attach to it.)
 
-#### Vowel sequences ####
+### Vowel sequences ###
 
 Thai vowel notation is reasonably complex because of a large number of vowel phonemes, combined with a distinction between long and short vowels, and between open syllables (those which end in a vowel) and closed syllables (those which end in a consonant).
 
@@ -126,4 +126,49 @@ Some sequences represent the same phonemes as others nowadays, but in the past s
 |    ◌วย    |         เ◌ือย        |  ◌ำ  |
 |    uɑj    |      ɨɑj, ɯɑj       |  ɑm  |
 
+
 All of these vowel sequences can carry one of the four tonemarks maiEk 0E48, maiTho 0E49, maiTri 0E4A or maiChattawa 0E4B, with the tonemark always appearing above the base consonant (if the vowel sequence includes a mark above the base consonant, the tonemark sits above it).
+
+<br>
+
+---
+## Pali & Sanskrit ##
+
+The character inventory for Pali and Sanskrit is a bit smaller than for Standard Thai. Here are the differences:
+
+| Not required | Consonants | 0E03, 0E05, 0E0B, 0E1D, 0E1F, 0E2E        |
+|:-------------|:-----------|:------------------------------------------|
+|              | Vowels     | 0E31, 0E41, 0E43, 0E44, 0E36, 0E37, 0E44  |
+|              | Other      | 0E48, 0E49, 0E4A, 0E4B, 0E4C              |
+| Add          | Other      | 0E3A, 0E4D, 0E4E                          |
+
+### Consonants ###
+
+| 0E01 | 0E02 | 0E04 | 0E06 | 0E07 | 0E08 | 0E09 | 0E0A | 0E0C | 0E0D | 0E0E / 0E0F |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----------:|
+|  ก   |  ข   |  ค   |  ฆ   |  ง   |  จ   |  ฉ   |  ช   |  ฌ   |  ญ   |    ฎ / ฏ\*  |
+
+| 0E10 | 0E11 | 0E12 | 0E13 | 0E14 / 0E15 | 0E16 | 0E17 | 0E18 | 0E19 | 0E1A / 0E1B | 0E1C | 0E1E |
+|:----:|:----:|:----:|:----:|:-----------:|:----:|:----:|:----:|:----:|:-----------:|:----:|:----:|
+|  ฐ   |  ฑ   |  ฒ   |  ณ   |    ด / ต\*  |  ถ   |  ท   |  ธ   |  น   |    บ / ป\*  |  ผ   |  พ   |
+
+| 0E20 | 0E21 | 0E22 | 0E23 | 0E24 | 0E25 | 0E26 | 0E27 | 0E28 | 0E29 | 0E2A | 0E2B | 0E2C |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|  ภ   |  ม   |  ย   |  ร   |  ฤ   |  ล   |  ฦ   |  ว   |  ศ   |  ษ   |  ส   |  ห   |  ฬ   |
+
+\* Sources seem to differ which letter to use for these positions in the Pali-Sanskrit inventory.
+
+The below-base parts of consonants yoYing ญ 0E4D and thoThan ฐ 0E10 should always be removed for Pali and Sanskrit languages. We can achieve this using a font's `LOCL` OpenType feature (though app support for language taggins is still very patchy):
+```
+script thai;
+language PAL ;
+sub [yoYing-thai thoThan-thai]' by [yoYing-thai.less thoThan-thai.less];
+
+script thai;
+language SAN ;
+sub [yoYing-thai thoThan-thai]' by [yoYing-thai.less thoThan-thai.less];
+```
+
+
+
+
