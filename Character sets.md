@@ -34,6 +34,9 @@ Thai script has four tonemarks (0E48–0E4B) and the killer sign (0E4C) which in
 | 0E48 | 0E49 | 0E4A | 0E4B | 0E4C |
 |:----:|:----:|:----:|:----:|:----:|
 |  ◌่   |  ◌้   |  ◌๊   |  ◌๋   |  ◌์   |
+
+Note that these marks do not directly indicate particular tones; to know the tonal register of a syllable, we also need to know the class of the consonant, and whether the vowel is short or long, and whether syllable is open or closed. The interaction of those factors with any tonemark indicates the pronunciation.
+
 </details>
 <details> 
   <summary><h2>Numerals</h2></summary>
