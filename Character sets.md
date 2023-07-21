@@ -145,6 +145,7 @@ The character inventory for Pali and Sanskrit is a bit smaller than for Standard
 |              | Vowels     | 0E31, 0E41, 0E43, 0E44, 0E36, 0E37, 0E44  |
 |              | Other      | 0E48, 0E49, 0E4A, 0E4B, 0E4C              |
 | Add          | Other      | 0E3A, 0E4D, 0E4E                          |
+| Adjust       | Consonants | 0E4D, 0E10                                |
 
 ### Consonants ###
 
