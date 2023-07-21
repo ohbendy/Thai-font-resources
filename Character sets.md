@@ -1,6 +1,6 @@
 # Characters of Thai script #
 
-Here follows a full list of the characters required for Thai language, finishing with the extras needed for minority language support. A font that includes all these characters with correct shaping will support all the languages listed in [Languages](https://github.com/ohbendy/Thai-font-resources/blob/main/Languages.md).
+Here follows a full list of the characters encoded for Thai, finishing with the extras needed for minority language support. A font that includes all these characters with correct shaping will support all the languages listed in [Languages](https://github.com/ohbendy/Thai-font-resources/blob/main/Languages.md).
   
 <details> 
   <summary><h2>Consonants</h2></summary>
@@ -156,14 +156,7 @@ A doubled consonant roReua ร 0E23 in words of Sanskrit origin also represents 
 <details> 
   <summary><h2>Pali & Sanskrit</h2></summary>
 
-The character inventory for Pali and Sanskrit is a bit smaller than for Standard Thai. Here are the differences:
-
-| Not required | Consonants | 0E03, 0E05, 0E0B, 0E1D, 0E1F, 0E2E        |
-|:-------------|:-----------|:------------------------------------------|
-|              | Vowels     | 0E31, 0E41, 0E43, 0E44, 0E36, 0E37, 0E44  |
-|              | Other      | 0E48, 0E49, 0E4A, 0E4B, 0E4C              |
-| Add          | Other      | 0E3A, 0E4D, 0E4E                          |
-| Adjust       | Consonants | 0E4D, 0E10                                |
+The character inventory for Pali and Sanskrit is a bit smaller than for Standard Thai.
 
 ### Consonants ###
 
@@ -177,10 +170,10 @@ The character inventory for Pali and Sanskrit is a bit smaller than for Standard
 |  ฐ   |  ฑ   |  ฒ   |  ณ   |    ด / ต\*  |  ถ   |  ท   |  ธ   |  น   |    บ / ป\*  |  ผ   |  พ   |
 |  ʈʰa |  ɖa  |  ɖʰa |  ɳa  |    ta       |  tha |  da  |  dʰa |  na  |    pa       |  pʰa |  ba  |
 
-| 0E20 | 0E21 | 0E22 | 0E23 | 0E24 | 0E25 | 0E26 | 0E27 | 0E28 | 0E29 | 0E2A | 0E2B | 0E2C |
-|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|  ภ   |  ม   |  ย   |  ร   |  ฤ   |  ล   |  ฦ   |  ว   |  ศ   |  ษ   |  ส   |  ห   |  ฬ   |
-| bʰa  |  ma  |  ya  |  ra  |      |  la  |      |  va  |  ɕa  |  ʂa  |  sa  |  ɦa  |  ɭ   |
+| 0E20 | 0E21 | 0E22 | 0E23 | 0E25 | 0E27 | 0E28 | 0E29 | 0E2A | 0E2B | 0E2C |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|  ภ   |  ม   |  ย   |  ร   |  ล   |  ว   |  ศ   |  ษ   |  ส   |  ห   |  ฬ   |
+| bʰa  |  ma  |  ya  |  ra  |  la  |  va  |  ɕa  |  ʂa  |  sa  |  ɦa  |  ɭ   |
 
 \* Sources seem to differ which letter to use for these positions in the Pali-Sanskrit inventory.
 
@@ -194,6 +187,39 @@ script thai;
 language SAN ;
 sub [yoYing-thai thoThan-thai]' by [yoYing-thai.less thoThan-thai.less];
 ```
+
+### Vowels ###
+
+| 0E30 | 0E32 | 0E34 | 0E34 | 0E35 | 0E38 | 0E39 | 0E40 | 0E42 | 0E24 | 0E24 0E32 | 0E26 | 0E26 0E45 |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:---------:|:----:|:---------:|
+|  ◌ะ  |  ◌า  |  ◌ิ   |  ◌ิ◌  |  ◌ี   |  ◌ุ   |  ◌ู   |  เ◌  |  โ◌  |  ฤ   |     ฤๅ    |  ฦ   |     ฦๅ    |
+|  ɑʔ  |  ɑː  |  iʔ  |  i   |  iː  |  uʔ  |  u   |  e   |   o  |   r̩  |     r̩ː    |   l̩  |     l̩ː    |
+
+### Other ###
+
+|   0E3A  |   0E4D   |   0E4E   | 
+|:-------:|:--------:|:--------:|
+|    ◌ฺ    |    ◌ํ     |    ◌๎     |
+| phinthu | nikkahit | yamakkan |
+
+Phinthu is the Thai version of virama, which cancels a consonant's inherent vowel. Nikkahit is the Thai anusvara, indicating nasalisation of the vowel. As such, it may appear alone on a consonant, or be combined with 0E32 ◌ํา, 0E34 ◌ิํ and 0E39 ◌ุํ. Yamakkan marks the beginning of a consonant cluster and may be replaced by the phinthu, which has the same effect, though some sources do seem to use the two characters contrastively.
+
+Tonemarks are not used in Pali or Sanskrit.
+
+---
+
+### Repertoire compared to Standard Central Thai ###
+
+Here we summarise the differences from Standard Central Thai:
+
+|   Not required  | Consonants | 0E03, 0E05, 0E0B, 0E1D, 0E1F, 0E2E        |
+|:----------------|:-----------|:------------------------------------------|
+|                 | Vowels     | 0E31, 0E41, 0E43, 0E44, 0E36, 0E37, 0E44  |
+|                 | Other      | 0E48, 0E49, 0E4A, 0E4B, 0E4C              |
+| Add             | Other      | 0E3A, 0E4D, 0E4E                          |
+| Adjust          | Consonants | 0E4D, 0E10                                |
+| New sequences   |            | 0E32 0E4D, 0E34 0E4D, 0E39 0E4E           |
+
 </details>
 
 
