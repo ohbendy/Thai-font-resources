@@ -163,7 +163,7 @@ The character inventory for Pali and Sanskrit is a bit smaller than for Standard
 
 \* Sources seem to differ which letter to use for these positions in the Pali-Sanskrit inventory.
 
-The below-base parts of consonants yoYing ญ 0E4D and thoThan ฐ 0E10 should always be removed for Pali and Sanskrit languages. We can achieve this using a font's `LOCL` OpenType feature (though app support for language taggins is still very patchy):
+The below-base parts of consonants yoYing ญ 0E4D and thoThan ฐ 0E10 should always be removed for Pali and Sanskrit languages. We can achieve this using a font's `LOCL` OpenType feature (though app support for language tagging is still very patchy):
 ```
 script thai;
 language PAL ;
