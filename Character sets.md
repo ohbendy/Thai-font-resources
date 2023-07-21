@@ -68,7 +68,7 @@ The nucleus of a syllable in Thai script is a base consonant. To it, we attach v
 
 Consonant clusters can occur in syllable-initial position. In these situations, the pair of consonants is treated as a unit and any above or below marks are carried by the second consonant. For example, the word เปรี้ยว \/priɑu\/ (sour) illustrates the cluster ปร \/pr\/ surrounded by the vowel เ◌ียว \/iɑu\/, and the tonemark maiTho ◌้ sitting above the second consonant. (The syllable's tone class is however determined by the first consonant.) Consonant clusters are not indicated by the orthography, and must be learnt as spelling rules.
 
-## Thai ##
+## Standard Central Thai ##
 
 ### Base consonants ###
 
