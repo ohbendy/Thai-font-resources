@@ -66,6 +66,8 @@ In Pali and Sanskrit languages, nikahit (0E4D) is the anusvara, phinthu (0E3A) m
 
 The nucleus of a syllable in Thai script is a base consonant. To it, we attach vowels (remembering that some vowels are typed and stored before the base consonant, and many vowels have several components), tonemarks (which are stored after the base consonant and any pre-base, above-base and below-base vowels) and optionally a final (coda) consonant. Note that post-base vowels like saraA 0E30, saraAa 0E32, saraAm 0E33 are stored after any tonemark.
 
+Consonant clusters can occur in syllable-initial position. In these situations, the pair of consonants is treated as a unit and any above or below marks are carried by the second consonant. For example, the word เปรี้ยว \/priɑu\/ (sour) illustrates the cluster ปร \/pr\/ surrounded by the vowel เ◌ียว \/iɑu\/, and the tonemark maiTho ◌้ sitting above the second consonant. (The syllable's tone class is however determined by the first consonant.)
+
 ## Thai ##
 
 ### Base consonants ###
