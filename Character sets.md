@@ -66,7 +66,7 @@ In Pali and Sanskrit languages, nikahit (0E4D) is the anusvara, phinthu (0E3A) m
 
 The nucleus of a syllable in Thai script is a base consonant. To it, we attach vowels (remembering that some vowels are typed and stored before the base consonant, and many vowels have several components), tonemarks (which are stored after the base consonant and any pre-base, above-base and below-base vowels) and optionally a final (coda) consonant. Note that post-base vowels like saraA 0E30, saraAa 0E32, saraAm 0E33 are stored after any tonemark.
 
-Consonant clusters can occur in syllable-initial position. In these situations, the pair of consonants is treated as a unit and any above or below marks are carried by the second consonant. For example, the word เปรี้ยว \/priɑu\/ (sour) illustrates the cluster ปร \/pr\/ surrounded by the vowel เ◌ียว \/iɑu\/, and the tonemark maiTho ◌้ sitting above the second consonant. (The syllable's tone class is however determined by the first consonant.)
+Consonant clusters can occur in syllable-initial position. In these situations, the pair of consonants is treated as a unit and any above or below marks are carried by the second consonant. For example, the word เปรี้ยว \/priɑu\/ (sour) illustrates the cluster ปร \/pr\/ surrounded by the vowel เ◌ียว \/iɑu\/, and the tonemark maiTho ◌้ sitting above the second consonant. (The syllable's tone class is however determined by the first consonant.) Consonant clusters are not indicated by the orthography, and must be learnt as spelling rules.
 
 ## Thai ##
 
@@ -130,6 +130,8 @@ Some sequences represent the same phonemes as others nowadays, but in the past s
 
 
 All of these vowel sequences can carry one of the four tonemarks maiEk 0E48, maiTho 0E49, maiTri 0E4A or maiChattawa 0E4B, with the tonemark always appearing above the base consonant (if the vowel sequence includes a mark above the base consonant, the tonemark sits above it).
+
+A doubled consonant roReua ร 0E23 in words of Sanskrit origin also represents the vowel \/ɑ\/, or in syllable-final position the coda \/ɑn\/. This is known as ro han (ร หัน).
 
 <br>
 
