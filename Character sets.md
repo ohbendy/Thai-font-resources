@@ -72,7 +72,7 @@ Consonant clusters can occur in syllable-initial position. In these situations, 
 
 ### Base consonants ###
 
-Almost any of the above consonants can serve as the initial of a syllable. The two letters khoKhuat ข 0E02 and khoKhon ฅ 0E05 are now obsolete in Thai orthography, though they should be included in digital fonts for users who need to represent older orthographies or minority languages. Consonant soRusi ษ 0E29 has not been found in a syllable-initial position in any words.
+Almost any of the above consonants can serve as the initial of a syllable. The two letters khoKhuat ข 0E02 and khoKhon ฅ 0E05 are now obsolete in Thai orthography, though they should be included in digital fonts for users who need to represent older orthographies or minority languages. Consonant soRusi ษ 0E29 has not been found in a word-initial position in any words.
 
 Consonants yoYing ญ 0E0D and thoThan ฐ 0E10 lose their below-base elements when below-base vowel marks need to occupy that space.
 
