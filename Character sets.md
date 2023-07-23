@@ -176,6 +176,7 @@ The character inventory for Pali and Sanskrit is a bit smaller than for Standard
 | bʰa  |  ma  |  ya  |  ra  |  la  |  va  |  ɕa\*|  ʂa\*|  sa  |  ɦa  |  ɭ   |
 
 \* Śa 0E28 and ṣa 0E29 occur only in Sanskrit.
+
 \** Sources seem to differ which letter to use for these positions in the Pali-Sanskrit inventory.
 
 The below-base parts of consonants yoYing ญ 0E4D and thoThan ฐ 0E10 should always be removed for Pali and Sanskrit languages. We can achieve this by putting some language declarations in a font's `LOCL` OpenType feature (though app support for language tagging is still very patchy):
