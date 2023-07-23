@@ -162,20 +162,21 @@ The character inventory for Pali and Sanskrit is a bit smaller than for Standard
 
 | 0E01 | 0E02 | 0E04 | 0E06 | 0E07 | 0E08 | 0E09 | 0E0A | 0E0C | 0E0D | 0E0E / 0E0F |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----------:|
-|  ก   |  ข   |  ค   |  ฆ   |  ง   |  จ   |  ฉ   |  ช   |  ฌ   |  ญ   |    ฎ / ฏ\*  |
+|  ก   |  ข   |  ค   |  ฆ   |  ง   |  จ   |  ฉ   |  ช   |  ฌ   |  ญ   |    ฎ / ฏ\** |
 |  ka  |  kʰa |  ga  |  gʰa |  ŋa  |  ca  | cʰa  |  ja  | jʰa  |  ɲa  |    ʈa       |
 
 | 0E10 | 0E11 | 0E12 | 0E13 | 0E14 / 0E15 | 0E16 | 0E17 | 0E18 | 0E19 | 0E1A / 0E1B | 0E1C | 0E1E |
 |:----:|:----:|:----:|:----:|:-----------:|:----:|:----:|:----:|:----:|:-----------:|:----:|:----:|
-|  ฐ   |  ฑ   |  ฒ   |  ณ   |    ด / ต\*  |  ถ   |  ท   |  ธ   |  น   |    บ / ป\*  |  ผ   |  พ   |
+|  ฐ   |  ฑ   |  ฒ   |  ณ   |    ด / ต\** |  ถ   |  ท   |  ธ   |  น   |    บ / ป\** |  ผ   |  พ   |
 |  ʈʰa |  ɖa  |  ɖʰa |  ɳa  |    ta       |  tha |  da  |  dʰa |  na  |    pa       |  pʰa |  ba  |
 
 | 0E20 | 0E21 | 0E22 | 0E23 | 0E25 | 0E27 | 0E28 | 0E29 | 0E2A | 0E2B | 0E2C |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |  ภ   |  ม   |  ย   |  ร   |  ล   |  ว   |  ศ   |  ษ   |  ส   |  ห   |  ฬ   |
-| bʰa  |  ma  |  ya  |  ra  |  la  |  va  |  ɕa  |  ʂa  |  sa  |  ɦa  |  ɭ   |
+| bʰa  |  ma  |  ya  |  ra  |  la  |  va  |  ɕa\*|  ʂa\*|  sa  |  ɦa  |  ɭ   |
 
-\* Sources seem to differ which letter to use for these positions in the Pali-Sanskrit inventory.
+\* Śa 0E28 and ṣa 0E29 occur only in Sanskrit.
+\** Sources seem to differ which letter to use for these positions in the Pali-Sanskrit inventory.
 
 The below-base parts of consonants yoYing ญ 0E4D and thoThan ฐ 0E10 should always be removed for Pali and Sanskrit languages. We can achieve this by putting some language declarations in a font's `LOCL` OpenType feature (though app support for language tagging is still very patchy):
 ```
@@ -195,7 +196,7 @@ sub [yoYing-thai thoThan-thai]' by [yoYing-thai.less thoThan-thai.less];
 |  ◌ะ  |  ◌า  |  ◌ิ   |  ◌ี   |  ◌ุ   |  ◌ู   |  ฤ   |    ฤๅ     |  ฦ   |     ฦๅ    |  เ◌  |  ไ◌  |  โ◌  |    เ◌า    |
 |  ɑʔ  |  ɑː  |  iʔ  |  iː  |  uʔ  |  u   |  r̩\* |    r̩ː\*   |  l̩\* |     l̩ː\*  |  e   | ɑj\* |  o   |    ɑu†    |
 
-\* Starred vowels occur only in Sanskrit
+\* Starred vowels occur only in Sanskrit.
 
 ### Other ###
 
