@@ -233,8 +233,52 @@ Here we summarise the differences from Standard Central Thai:
 | Adjust          | Consonants | 0E4D, 0E10                                |
 | New sequences   |            | 0E32 0E4D, 0E34 0E4D, 0E39 0E4E           |
 
-</details>
+---
 
+</details>
+<details> 
+  <summary><h2>Pattani Malay</h2></summary>
+
+Pattani Malay orthography requires the inclusion of phinthu ◌ฺ 0E3A, macronbelowcomb ◌̱ 0331 and tildecome ◌̃ 0303. A font's `mark` feature should include rules to position these Latin diacritics on Thai base characters. Depending on the font your browser uses, these sequences may look incorrect. 
+
+### Consonants ###
+Sounds that do not occur in Standard Thai are represented by consonants with diacritics.
+
+| 0E01 | 0E01 0E3A | 0E04 | 0E04 0E3A | 0E07 | 0E07 0331 | 0E08 | 0E0A | 0E0B | 0E0B 0E3A | 0E0D |
+|:----:|:---------:|:----:|:---------:|:----:|:---------:|:----:|:----:|:----:|:---------:|:----:|
+|  ก   |     กฺ     |  ค   |     คฺ     |   ง  |     ง̱    |  จ   |   ช  |   ซ  |     ซฺ     |   ญ  |
+
+| 0E0D 0331 | 0E14 | 0E15 | 0E17 | 0E18 | 0E19 0331 | 0E1A | 0E1B | 0E1E | 0E1F | 0E21 | 0E21 0331 |
+|:---------:|:----:|:----:|:----:|:----:|:---------:|:----:|:----:|:----:|:----:|:----:|:---------:|
+|     ญ̱    |  ด   |   ต  |   ท  |   ธ  |     น̱    |  บ   |   ป  |   พ  |   ฟ  |   ม  |    ม̱     |
+
+| 0E22 | 0E22 0E3A | 0E23 | 0E23 0E3A | 0E25 | 0E27 | 0E2D | 0E2E |
+|:----:|:---------:|:----:|:---------:|:----:|:----:|:----:|:----:|
+|   ย  |     ยฺ     |   ร  |     รฺ     |  ล   |   ว  |   อ  |   ฮ  |
+
+yoYing ญ 0E0D should lose its below-base element to accommodate the diacritic macronbelow. Any belowvowels should attach _below_ a phinthu or macronbelow. This may necessitate some glyph reordering by the font.
+
+Font designers may wish for the macronbelow to fit the width of the consonant under which it sits.
+
+### Vowels ###
+
+Several sequences that do not occur in Standard Central Thai.
+
+|  ◌ะ  |  ◌ั   |  ◌า  |  ◌ิ   |  ◌ี   |    ◌ือ     |   ◌ุ  |  ◌ู   |    เ◌ะ    |    เ◌็     |  เ◌  |    แ◌ะ    |
+|:----:|:----:|:----:|:----:|:----:|:---------:|:----:|:----:|:---------:|:---------:|:----:|:---------:|
+| 0E30 | 0E31 | 0E32 | 0E34 | 0E35 | 0E37 0E2D | 0E38 | 0E39 | 0E40 0E30 | 0E40 0E47 | 0E40 | 0E41 0E30 |
+
+|    แ◌็     |  แ◌  |      เ◌าะ      |     ◌็อ    |  ◌อ  |    โ◌ะ    |  โ◌  |    ◌̃ะ    |    ◌̃า    |
+|:---------:|:----:|:--------------:|:---------:|:----:|:---------:|:----:|:---------:|:---------:|
+| 0E41 0E47 | 0E41 | 0E40 0E32 0E30 | 0E47 0E2D | 0E2D | 0E42 0E30 | 0E42 | 0303 0E30 | 0303 0E32 |
+
+|     ◌ุ̃    |         เ◌̃าะ       |      แ◌̃ะ      |     แ◌̃   |   ◌̃อ    |
+|:---------:|:-------------------:|:--------------:|:---------:|:---------:|
+| 0E38 0303 | 0E40 0303 0E32 0E30 | 0E41 0303 0E30 | 0E41 0303 | 0303 0E2D |
+
+Nasalised vowels are represented by the combining tilde ◌̃ 0303. 
+
+</details>
 
 
 
