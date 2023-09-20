@@ -25,4 +25,4 @@ A mildly curated\* list of designers and foundries focusing on Thai script.
  - [Typomancer](https://typomancer.com/)
  - [Ziam Type](https://www.facebook.com/Ziamtype)
 
-\* The focus here is on studios in Thailand and designers with immersive experiences of the Thai script.
+\* The focus here is on studios in Thailand and designers with immersive experience of the Thai script.
