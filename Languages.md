@@ -48,7 +48,7 @@ Number of speakers is very approximate in some cases, and should not be taken as
 Historic versions of the Thai script, which are probably incompatible with current Thai Unicode include:
 
 | Name | References |
-|:----:|:----------:|
+|:----:|:----------|
 | Fakkham (อักษรฝักขาม) | [Wikipedia](https://en.wikipedia.org/wiki/Fakkham_script) <br> [Thai Wikipedia](https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%9D%E0%B8%B1%E0%B8%81%E0%B8%82%E0%B8%B2%E0%B8%A1) |
 | Thai Nithet (อักษรไทยนิเทศ) | [Manuscript](https://iiif.crossasia.org/s/lanna/manifests/554867/c/562926) <br> [YouTube channel](https://www.youtube.com/playlist?list=PLAyfOfcL5EgtiqIf-PjPHnvqrpYWGBNeD) |
 | Thai Sukhothai (อักษรสุโขทัย) | [Wikipedia](https://en.wikipedia.org/wiki/Sukhothai_script) <br> [Thai Wikipedia](https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B9%82%E0%B8%82%E0%B8%97%E0%B8%B1%E0%B8%A2) |
