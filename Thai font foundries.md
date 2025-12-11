@@ -2,7 +2,7 @@ A mildly curated\* list of designers and foundries focusing on Thai script.
 
  - [Cadson Demak](https://fonts.cadsondemak.com/)
  - [DB Fonts](https://www.dbfont.biz/fontsample.php)
- - [Deltatype](https://deltaty.pe/fonts/)
+ - [Deltatype](https://deltaty.pe/th)
  - [Dhammadha Fonts](https://www.dhammadha.com/fonts)
  - [DR Design](https://www.facebook.com/DRdesignfreelancer/photos)
  - [Fontcraft Studio](https://www.fontcraftstudio.com/)
